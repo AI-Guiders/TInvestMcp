@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mcp_id": "tinvest-mcp",
+  "title": "T-Invest MCP",
+  "tools": [
+    {
+      "name": "tinvest_get_accounts",
+      "description": "Список счетов пользователя (брокерский, ИИС и т.д.)."
+    },
+    {
+      "name": "tinvest_get_portfolio",
+      "description": "Портфель по счёту: стоимость по типам активов, доходность, позиции с ценами."
+    },
+    {
+      "name": "tinvest_get_positions",
+      "description": "Позиции по счёту: бумаги, валюта, фьючерсы, опционы (без доходностей)."
+    },
+    {
+      "name": "tinvest_get_withdraw_limits",
+      "description": "Доступный остаток для вывода и заблокированные суммы (в т.ч. ГО по фьючерсам)."
+    },
+    {
+      "name": "tinvest_get_margin_attributes",
+      "description": "Маржинальные показатели: ликвидный портфель, начальная/минимальная маржа, недостающие средства."
+    },
+    {
+      "name": "tinvest_find_instrument",
+      "description": "Поиск инструмента по тикеру или названию. Возвращает FIGI, ticker, name, type."
+    },
+    {
+      "name": "tinvest_get_dividends",
+      "description": "История выплат дивидендов по инструменту и последняя выплата. Укажите ticker или figi."
+    },
+    {
+      "name": "tinvest_get_operations",
+      "description": "История операций по счёту с фильтрацией и пагинацией (по умолчанию limit=1000)."
+    },
+    {
+      "name": "tinvest_generate_broker_report",
+      "description": "Запуск формирования брокерского отчёта за период. Возвращает task_id для tinvest_get_broker_report."
+    },
+    {
+      "name": "tinvest_get_broker_report",
+      "description": "Получение готового брокерского отчёта по task_id. Пагинация через page (с 1)."
+    }
+  ]
+}

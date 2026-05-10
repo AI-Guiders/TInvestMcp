@@ -1,0 +1,9 @@
+{
+  "tinvest": {
+    "command": "C:\\path\\to\\workspace\\Financial\\software\\open\\TInvestMcp\\publish\\TInvestMcp.exe",
+    "args": [],
+    "env": {
+      "TINVEST_TOKEN_FILE": "C:\\path\\to\\secrets\\read_token.txt"
+    }
+  }
+}

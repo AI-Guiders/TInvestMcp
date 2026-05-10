@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TInvestMcp.csproj" />
+  <Project Path="TInvestMcp.Tests/TInvestMcp.Tests.csproj" />
+</Solution>
